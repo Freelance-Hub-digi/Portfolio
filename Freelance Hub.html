@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Freelance Hub | Brand Growth Proposal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Manrope:wght@300;400;500&display=swap">
+<style>
+:root{--red:#7A1420;--red2:#5E0F19;--cream:#F8F0E3;--paper:#FFFBF4;--blush:#EBD8C1;--brown:#4A2C1D;--mute:#6E5646;--gold:#B58A4B;--line:rgba(74,44,29,.22);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--cream);color:var(--brown);font:300 17px/1.75 Manrope,system-ui,sans-serif}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:500;margin:0;line-height:1.12}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.cover{background:radial-gradient(700px 420px at 15% 0%,#9A1F2E,transparent 65%),var(--red);color:var(--cream);padding:40px 0}
+.frame{border:1px solid var(--gold);outline:1px solid rgba(181,138,75,.45);outline-offset:8px;margin:12px;padding:72px 32px;min-height:78vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.brand{font:500 1rem Manrope,sans-serif;letter-spacing:.42em;color:var(--gold)}
+.orn{color:var(--gold);letter-spacing:.7em;margin:22px 0}
+.cover h1{font-size:clamp(2.6rem,8vw,5.6rem);max-width:14ch;font-weight:700}
+.cover h1 i{color:var(--blush);font-weight:500}
+.cover p{max-width:50ch;color:var(--blush);font-size:1.1rem;margin:22px 0 0}
+.meta{margin-top:36px;font-size:.9rem;color:var(--gold);letter-spacing:.12em}
+section{padding:88px 0 0}
+.head{text-align:center;margin-bottom:44px}
+.head .orn{margin:0 0 14px;font-size:.8rem}
+h2{font-size:clamp(2rem,4.5vw,3rem);color:var(--red)}
+.lead{color:var(--mute);max-width:56ch;margin:14px auto 0}
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.pillar{background:var(--paper);border-top:5px solid var(--red);padding:32px 28px;box-shadow:0 14px 34px -22px rgba(74,44,29,.5)}
+.pillar h3{font-size:1.5rem;margin-bottom:10px}
+.pillar p,.member p{margin:0;color:var(--mute);font-size:.97rem}
+.teamband{background:var(--red);margin-top:88px;padding:80px 0;color:var(--cream)}
+.teamband h2{color:var(--cream)}
+.teamband .lead{color:var(--blush)}
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px}
+.member{border:1px solid var(--gold);padding:30px 26px;background:var(--red2)}
+.member h3{font-size:1.4rem;margin-bottom:10px;color:var(--cream)}
+.member p{color:var(--blush)}
+.member .tag{display:block;color:var(--gold);font-size:.8rem;letter-spacing:.24em;margin-bottom:14px}
+.work{display:grid;grid-template-columns:76px minmax(0,1fr);gap:0 26px;padding:30px 0;border-top:1px solid var(--line)}
+.work:last-of-type{border-bottom:1px solid var(--line)}
+.mono{width:64px;height:64px;border-radius:50%;background:var(--red);color:var(--cream);font:500 1.5rem "Playfair Display",serif;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px var(--cream),0 0 0 4px var(--gold)}
+.work h3{font-size:1.6rem}
+.sec{color:var(--gold);font-size:.85rem;letter-spacing:.16em;margin:2px 0 10px}
+.work p{margin:0 0 10px;color:var(--mute);max-width:62ch}
+.work a{color:var(--red);font-weight:500;text-decoration:none;border-bottom:1px solid var(--gold);overflow-wrap:anywhere}
+.work a:focus-visible{outline:2px solid var(--red);outline-offset:4px}
+.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.steps li{counter-increment:s;background:var(--paper);padding:24px;border-bottom:4px solid var(--gold)}
+.steps li::before{content:counter(s);font:500 2.6rem "Playfair Display",serif;color:var(--red);display:block;line-height:1}
+.steps b{display:block;font:500 1.3rem "Playfair Display",serif;margin:8px 0 4px}
+.steps span{color:var(--mute);font-size:.95rem}
+.close{margin-top:96px;padding:80px 24px;text-align:center;background:var(--brown);color:var(--cream)}
+.close h2{color:var(--cream);max-width:16ch;margin:0 auto 16px}
+.close p{color:var(--blush);max-width:48ch;margin:0 auto}
+.close .orn{margin:0 0 18px}
+@media(max-width:640px){.work{grid-template-columns:1fr;gap:14px}section{padding-top:64px}.frame{padding:56px 20px}}
+
+mark{background:linear-gradient(transparent 58%,rgba(181,138,75,.55) 58%);color:inherit;padding:0 2px;background-size:0 100%;background-repeat:no-repeat;animation:hl 1.2s .9s ease forwards}
+.teamband mark,.close mark{background-image:linear-gradient(transparent 58%,rgba(181,138,75,.45) 58%)}
+@keyframes hl{to{background-size:100% 100%}}
+.cover .frame>*{opacity:0;transform:translateY(18px);animation:rise .9s ease forwards}
+.cover .frame>*:nth-child(2){animation-delay:.15s}.cover .frame>*:nth-child(3){animation-delay:.3s}.cover .frame>*:nth-child(4){animation-delay:.5s}.cover .frame>*:nth-child(5){animation-delay:.7s}
+@keyframes rise{to{opacity:1;transform:none}}
+.orn{animation:glow 3.2s ease-in-out infinite}
+@keyframes glow{50%{opacity:.45}}
+.ribbon{background:var(--red2);border-block:1px solid var(--gold);overflow:hidden;white-space:nowrap;color:var(--blush);font:500 .95rem "Playfair Display",serif;letter-spacing:.08em}
+.ribbon div{display:inline-block;padding:14px 0;animation:slide 38s linear infinite}
+.ribbon span{margin:0 22px}.ribbon b{color:var(--gold);font-weight:400}
+@keyframes slide{to{transform:translateX(-50%)}}
+.hl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--gold);border:1px solid var(--gold);margin-top:88px}
+.hl div{background:var(--paper);padding:34px 20px;text-align:center}
+.hl b{display:block;font:700 3.2rem "Playfair Display",serif;color:var(--red);line-height:1}
+.hl span{display:block;margin-top:8px;color:var(--mute);font-size:.92rem}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease;transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.pillar,.member,.steps li{transition:transform .35s ease,box-shadow .35s ease}
+.pillar:hover,.steps li:hover{transform:translateY(-6px);box-shadow:0 22px 40px -22px rgba(74,44,29,.6)}
+.member:hover{transform:translateY(-6px);background:#6A1119}
+.work{transition:background .35s ease}
+.work:hover{background:rgba(255,251,244,.7)}
+.work:hover .mono{transform:rotate(-8deg) scale(1.06)}
+.mono{transition:transform .4s ease}
+.work a{background:linear-gradient(var(--red),var(--red)) 0 100%/0 1px no-repeat;transition:background-size .4s ease;border-bottom-color:transparent}
+.work a:hover{background-size:100% 1px;border-bottom-color:var(--gold)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.cover .frame>*,.js .rv{opacity:1!important;transform:none!important}mark{background-size:100% 100%}.ribbon div{white-space:normal}}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add("js")</script>
+<header class="cover"><div class="frame">
+<div class="brand">FREELANCE HUB</div>
+<div class="orn">◆ ◆ ◆</div>
+<h1>Your brand, <i>seen</i> by the right people.</h1>
+<p>A private growth partnership for clinics, hospitality and education brands: precision advertising, considered storytelling and a <mark>beautifully kept</mark> social presence.</p>
+<div class="meta">BRAND GROWTH PROPOSAL · CHENNAI</div>
+</div></header>
+<div class="ribbon" aria-hidden="true"><div><span>Dr. Ezhilarasi</span><b>◆</b><span>Maha Fertility Centre</span><b>◆</b><span>Mahalakshmi Multispeciality</span><b>◆</b><span>Hotel Sindhu Towers</span><b>◆</b><span>Zen Dental Studio</span><b>◆</b><span>IQ Genius Kids</span><b>◆</b><span>Dr. Ezhilarasi</span><b>◆</b><span>Maha Fertility Centre</span><b>◆</b><span>Mahalakshmi Multispeciality</span><b>◆</b><span>Hotel Sindhu Towers</span><b>◆</b><span>Zen Dental Studio</span><b>◆</b><span>IQ Genius Kids</span><b>◆</b><span>Dr. Ezhilarasi</span><b>◆</b><span>Maha Fertility Centre</span><b>◆</b><span>Mahalakshmi Multispeciality</span><b>◆</b><span>Hotel Sindhu Towers</span><b>◆</b><span>Zen Dental Studio</span><b>◆</b><span>IQ Genius Kids</span><b>◆</b><span>Dr. Ezhilarasi</span><b>◆</b><span>Maha Fertility Centre</span><b>◆</b><span>Mahalakshmi Multispeciality</span><b>◆</b><span>Hotel Sindhu Towers</span><b>◆</b><span>Zen Dental Studio</span><b>◆</b><span>IQ Genius Kids</span><b>◆</b></div></div>
+
+<main class="wrap">
+<section>
+<div class="head"><div class="orn">◆</div><h2>Our philosophy</h2><p class="lead">Attention is easy to buy and hard to keep. We shape every touchpoint, from the first ad to the last caption, so the people who find you <mark>already trust you</mark>.</p></div>
+<div class="pillars">
+<div class="pillar"><h3>Performance marketing</h3><p>Meta and Google campaigns built around your ideal patient, guest or parent. Refined audiences, distinctive creatives and lead journeys designed to feel effortless.</p></div>
+<div class="pillar"><h3>Content and scripting</h3><p>Reels scripts, captions and authority pieces written in your brand's own voice, with the credibility to turn a scroll into a conversation.</p></div>
+<div class="pillar"><h3>Social stewardship</h3><p>A calendar kept with quiet precision. Every post lands at the right hour, in the right tone, on a profile that looks deliberate.</p></div>
+</div>
+<div class="hl rv"><div><b data-n="6">0</b><span>Brands entrusted to us</span></div><div><b data-n="3">0</b><span>Sectors served</span></div><div><b data-n="3">0</b><span>Crafts, one shared brief</span></div><div><b data-n="4">0</b><span>Stages, from discovery to refinement</span></div></div>
+</section>
+</main>
+
+<div class="teamband"><div class="wrap">
+<div class="head"><div class="orn" style="color:var(--gold)">◆</div><h2>The team behind your growth</h2><p class="lead">Three specialists, one shared brief. Each owns a craft, and together they move as one.</p></div>
+<div class="team">
+<div class="member"><span class="tag">PERFORMANCE</span><h3>Seasoned performance marketer</h3><p>Builds and refines campaigns that bring in promising, well-qualified enquiries rather than idle clicks.</p></div>
+<div class="member"><span class="tag">STORYTELLING</span><h3>Accomplished content writer</h3><p>Crafts creative scripts and copy with a natural sense of pace, so your message is remembered, not skipped.</p></div>
+<div class="member"><span class="tag">PRESENCE</span><h3>Distinguished, timing-managed social media manager</h3><p>Brings refined command of the craft to planning, scheduling and community care, so your page feels alive and always on time.</p></div>
+</div></div></div>
+
+<main class="wrap">
+<section>
+<div class="head"><div class="orn">◆</div><h2>Houses we have served</h2><p class="lead">A selection of brands entrusted to us across healthcare, hospitality and education. Each link opens the live presence.</p></div>
+
+<div class="work"><div class="mono">E</div><div><h3>Dr. Ezhilarasi</h3><div class="sec">HEALTHCARE</div><p>Reassuring, expert-led storytelling paired with targeted campaigns to help the practice reach families who are actively seeking care, presented on a refined and consistent profile.</p><a href="https://www.instagram.com/drezhilarasi_mmh" target="_blank" rel="noopener">@drezhilarasi_mmh</a></div></div>
+
+<div class="work"><div class="mono">M</div><div><h3>Maha Fertility Centre</h3><div class="sec">HEALTHCARE</div><p>A sensitive, warm content voice and carefully aimed advertising that meets couples at a personal moment, with a page that reflects the centre's compassion and expertise.</p><a href="https://www.instagram.com/maha_fertility_centre_" target="_blank" rel="noopener">@maha_fertility_centre_</a></div></div>
+
+<div class="work"><div class="mono">M</div><div><h3>Mahalakshmi Multispeciality</h3><div class="sec">HEALTHCARE</div><p>Clear, credible communication of a wide range of specialities, supported by campaigns and a steady content rhythm that keep the hospital present in its community.</p><a href="https://www.instagram.com/mahalakshmi_multispecialityupt" target="_blank" rel="noopener">@mahalakshmi_multispecialityupt</a></div></div>
+
+<div class="work"><div class="mono">S</div><div><h3>Hotel Sindhu Towers</h3><div class="sec">HOSPITALITY</div><p>Evocative visual storytelling and timed publishing that showcase the stay experience, with advertising designed to turn admiration into enquiries.</p><a href="https://www.instagram.com/hotelsindhutowers" target="_blank" rel="noopener">@hotelsindhutowers</a></div></div>
+
+<div class="work"><div class="mono">Z</div><div><h3>Zen Dental Studio, Hyderabad</h3><div class="sec">HEALTHCARE</div><p>A calm, polished presence that puts patients at ease, backed by focused campaigns and educational content that builds confidence before the first visit.</p><a href="https://www.instagram.com/zendentalstudiohyd/" target="_blank" rel="noopener">@zendentalstudiohyd</a></div></div>
+
+<div class="work"><div class="mono">IQ</div><div><h3>IQ Genius Kids</h3><div class="sec">EDUCATION · FRANCHISE</div><p>Performance marketing for the academy and preschool franchise, guided by Kavita Karthik, Managing Director of IQ Groups: campaigns crafted to attract prospective franchise partners and parents with clarity and trust.</p><a href="https://iqgeniuskids.com/" target="_blank" rel="noopener">iqgeniuskids.com</a></div></div>
+</section>
+
+<section>
+<div class="head"><div class="orn">◆</div><h2>How we work with you</h2><p class="lead">A calm, transparent rhythm from first conversation to ongoing partnership.</p></div>
+<ol class="steps">
+<li><b>Discovery</b><span>We study your brand, audience and current presence.</span></li>
+<li><b>Strategy</b><span>A tailored plan for campaigns, content and calendar.</span></li>
+<li><b>Creation</b><span>Scripts, creatives and ads produced to a single, elevated standard.</span></li>
+<li><b>Refinement</b><span>Regular reviews so every month is sharper than the last.</span></li>
+</ol>
+</section>
+</main>
+
+<div class="close"><div class="orn" style="color:var(--gold)">◆ ◆ ◆</div><h2>Let us begin with a conversation.</h2><p>Share your page or ad account and we will return with a considered view of what to elevate first.</p></div>
+<script>
+(function(){var els=document.querySelectorAll('.pillar,.member,.work,.steps li,.head,.hl');
+els.forEach(function(e,i){e.classList.add('rv');e.style.setProperty('--d',(i%3)*.12+'s')});
+var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function count(el){var n=+el.dataset.n;if(reduce){el.textContent=n;return}var t=0;var iv=setInterval(function(){t++;el.textContent=t;if(t>=n)clearInterval(iv)},180)}
+if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});document.querySelectorAll('[data-n]').forEach(function(b){b.textContent=b.dataset.n});return}
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');x.target.querySelectorAll('[data-n]').forEach(count);io.unobserve(x.target)}})},{threshold:.15});
+els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
